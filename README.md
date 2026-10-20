@@ -22,13 +22,13 @@ Try: "What's on my plate today?", "Turn yesterday's meeting into to-dos",
 **Claude Code plugin** (skill + MCP server):
 
 ```
-/plugin marketplace add systemind-team/aicoo
+/plugin marketplace add systemind-team/aicoo-skills-v2
 /plugin install aicoo@aicoo
 ```
 
 Then ask Claude to connect you to aicoo; the first time, it runs the login.
 
-**Skills only** (any agent that reads `SKILL.md`): `npx skills add systemind-team/aicoo`
+**Skills only** (any agent that reads `SKILL.md`): `npx skills add systemind-team/aicoo-skills-v2`
 
 **MCP server** for any MCP client: command `npx`, args `-y @aicoo/cli@latest mcp`.
 Log in once with `npx -y @aicoo/cli@latest login`; the token stays in
@@ -55,6 +55,6 @@ aicoo as yours, "via" the agent. Disconnect it any time in aicoo under
 | `.mcp.json` | Registers the aicoo MCP server (`@aicoo/cli mcp`) |
 
 The CLI is on npm as [`@aicoo/cli`](https://www.npmjs.com/package/@aicoo/cli).
-Issues and ideas: [open an issue](https://github.com/systemind-team/aicoo/issues).
+Issues and ideas: [open an issue](https://github.com/systemind-team/aicoo-skills-v2/issues).
 
 MIT © Systemind
