@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aicoo": {
+      "command": "npx",
+      "args": ["-y", "@aicoo/cli@latest", "mcp"]
+    }
+  }
+}

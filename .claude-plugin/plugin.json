@@ -1,0 +1,10 @@
+{
+  "name": "aicoo",
+  "version": "0.1.0",
+  "description": "Read and update your team's aicoo docs, to-dos and meetings from Claude Code. Edits to existing docs are previewed and need your yes.",
+  "author": { "name": "Systemind", "url": "https://www.aicoo.io" },
+  "homepage": "https://www.aicoo.io",
+  "repository": "https://github.com/systemind-team/aicoo",
+  "license": "MIT",
+  "keywords": ["aicoo", "docs", "todos", "meetings", "mcp"]
+}

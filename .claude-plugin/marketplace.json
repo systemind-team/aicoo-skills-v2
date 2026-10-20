@@ -1,0 +1,13 @@
+{
+  "name": "aicoo",
+  "owner": { "name": "Systemind", "url": "https://www.aicoo.io" },
+  "metadata": { "description": "aicoo for your own agent: your team's docs, to-dos and meetings." },
+  "plugins": [
+    {
+      "name": "aicoo",
+      "source": "./",
+      "description": "Read and update your team's aicoo docs, to-dos and meetings from Claude Code. Edits to existing docs are previewed and need your yes.",
+      "version": "0.1.0"
+    }
+  ]
+}
