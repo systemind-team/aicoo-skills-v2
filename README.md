@@ -39,6 +39,7 @@ Log in once with `npx -y @aicoo/cli@latest login`; the token stays in
 - See what's due, open and new: `today`, `news`
 - Find and read docs, list to-dos and meetings
 - Add, change and finish to-dos; write new docs
+- Read your team chats, and send a message as you: it shows you the exact text and the chat first, sends only after your yes, and the message shows "via" the agent
 - **Edit an existing doc**: it shows you the change in chat first and applies
   it only after you say yes. Every edit can be undone, in chat or in aicoo.
 
