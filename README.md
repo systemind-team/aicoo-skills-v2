@@ -38,6 +38,7 @@ Log in once with `npx -y @aicoo/cli@latest login`; the token stays in
 
 - See what's due, open and new: `today`, `news`
 - Find and read docs, list to-dos and meetings
+- Work with full tables through the Aicoo web UI when the connected API does not support structured-table edits; preserve field types, formulas and linked form settings
 - Add, change and finish to-dos; write new docs
 - Read your team chats, and send a message as you: it shows you the exact text and the chat first, sends only after your yes, and the message shows "via" the agent
 - **Edit an existing doc**: it shows you the change in chat first and applies
@@ -52,6 +53,7 @@ aicoo as yours, "via" the agent. Disconnect it any time in aicoo under
 | Path | What |
 |---|---|
 | `skills/aicoo/SKILL.md` | The skill. Same text as https://www.aicoo.io/skill.md |
+| `skills/aicoo/references/full-table.md` | Full-table capability checks and web UI editing workflow |
 | `.claude-plugin/` | Claude Code plugin and marketplace manifests |
 | `.mcp.json` | Registers the aicoo MCP server (`@aicoo/cli mcp`) |
 

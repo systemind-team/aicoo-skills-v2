@@ -1,6 +1,6 @@
 ---
 name: aicoo
-description: Use when the person asks to connect to aicoo, or to read or change their team's docs, to-dos, meetings or chats in aicoo (what's due today, find a doc, add or finish a to-do, turn a meeting into to-dos, save this session as a doc, pick up a to-do assigned to them, catch up on a team chat, send a message they approved).
+description: Use when the person asks to connect to aicoo, or to read or change their team's docs, full tables, table fields, rows, views, linked forms, to-dos, meetings or chats in aicoo (what's due today, find a doc, add or finish a to-do, turn a meeting into to-dos, save this session as a doc, pick up a to-do assigned to them, catch up on a team chat, send a message they approved).
 version: "0.2.0"
 ---
 
@@ -101,6 +101,13 @@ Markdown on stdin. Give the person the link it prints.
 
 Never merge, deploy or ship to production unless the person asks you to in
 this session.
+
+## Full tables and linked forms
+
+For Aicoo full tables (multidimensional tables), fields, rows, views or linked
+forms, read [references/full-table.md](references/full-table.md). Check the
+connected tools first; if structured-table edits are unsupported, use the
+signed-in Aicoo web UI when available. This is not Feishu/Lark Bitable.
 
 ## Editing an existing doc
 
